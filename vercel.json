@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "buildCommand": "cd gentle-ai-frontend && pnpm install && pnpm run build",
+  "outputDirectory": "gentle-ai-frontend/dist",
+  "installCommand": "cd gentle-ai-frontend && pnpm install",
+  "framework": null,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
